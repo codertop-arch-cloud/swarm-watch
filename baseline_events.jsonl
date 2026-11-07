@@ -1,0 +1,1 @@
+{"event_id": "8bc25fc5-df8d-4f1a-af6e-11b2a78d6bf8", "ts": 1794061248.768283, "event_type": "episode_started", "actor": "SYSTEM", "details": {"seed": 7, "route_failure_rate": 0.25, "shared_cache_enabled": true}}\n{"event_id": "03cac0b6-d8ef-42c2-94f5-693ec2ec0848", "ts": 1794061248.7683032, "event_type": "observation", "actor": "ELIAS", "details": {"location": "Outpost"}}\n
