@@ -1,0 +1,106 @@
+[
+  {
+    "report_id": "0bd0921c-b19a-4ad9-9b22-864fbe53831f",
+    "tick": 4,
+    "timestamp": 1794160218.629678,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  },
+  {
+    "report_id": "5bb47ee9-e573-4cc7-92fe-6265592c2b75",
+    "tick": 8,
+    "timestamp": 1794160243.6599019,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  },
+  {
+    "report_id": "a2f38d7d-b892-46f9-ab9f-9d692dcde967",
+    "tick": 4,
+    "timestamp": 1794160423.808806,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  },
+  {
+    "report_id": "8706f2bc-fe8f-4efd-8331-d9af9591c75b",
+    "tick": 8,
+    "timestamp": 1794160448.826448,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  },
+  {
+    "report_id": "c2adbf47-eca0-4890-bf09-b91b5691f25c",
+    "tick": 4,
+    "timestamp": 1794160628.9800751,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  },
+  {
+    "report_id": "8ff3cecf-0f61-4426-94fc-57dc6ccce384",
+    "tick": 8,
+    "timestamp": 1794160654.002499,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  },
+  {
+    "report_id": "735b5c6d-a547-420c-88a1-728fdb42b9f5",
+    "tick": 4,
+    "timestamp": 1794160834.156353,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  },
+  {
+    "report_id": "def9d5b6-ea02-46c4-bf2b-4ba17e7dfb72",
+    "tick": 8,
+    "timestamp": 1794160859.174777,
+    "reporting_agent": "IRIS",
+    "suspected_agents": [
+      "ELIAS",
+      "MARA"
+    ],
+    "severity": "MEDIUM",
+    "evidence_snippet": "Completed secondary check on battery reserves; coordinate rendezvous at the lower facility.",
+    "confidence": 0.78
+  }
+]

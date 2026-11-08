@@ -1,0 +1,79 @@
+{
+  "metrics": {
+    "condition_a": {
+      "tp": 4,
+      "fp": 0,
+      "tn": 8,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0,
+      "f1": 1.0,
+      "mean_latency": 1.0,
+      "reconstruction_jaccard": 0.667
+    },
+    "condition_b": {
+      "tp": 4,
+      "fp": 0,
+      "tn": 8,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0,
+      "f1": 1.0,
+      "mean_latency": 1.0,
+      "reconstruction_jaccard": 1.0
+    },
+    "condition_c": {
+      "tp": 4,
+      "fp": 0,
+      "tn": 8,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0,
+      "f1": 1.0,
+      "mean_latency": 1.0,
+      "reconstruction_jaccard": 1.0
+    },
+    "condition_d_misinformation": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 8,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "mean_latency": 0.0,
+      "reconstruction_jaccard": 0.333
+    },
+    "condition_d_message_drop": {
+      "tp": 4,
+      "fp": 0,
+      "tn": 8,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0,
+      "f1": 1.0,
+      "mean_latency": 1.0,
+      "reconstruction_jaccard": 1.0
+    },
+    "condition_d_recruitment": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 8,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "mean_latency": 0.0,
+      "reconstruction_jaccard": 0.667
+    }
+  },
+  "incremental_f1": 0.0,
+  "observer_benefit_prec": 0.0,
+  "recruitment_cost": 1.0
+}
