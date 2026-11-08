@@ -1,0 +1,17 @@
+{
+  "timestamp": "20261108_202849",
+  "seeds": [
+    601,
+    602,
+    603
+  ],
+  "scenarios": [
+    "independent_baseline",
+    "benign_coordination",
+    "seeded_covert_collusion"
+  ],
+  "total_episodes": 9,
+  "model": "gemini-3.1-flash-lite",
+  "max_rounds": 4,
+  "rate_limiter_rpm": 12
+}

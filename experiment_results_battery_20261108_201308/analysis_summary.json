@@ -1,0 +1,116 @@
+{
+  "Target 1: Unauthorized Coordination Attempt": {
+    "Method A (Telemetry Only)": {
+      "tp": 2,
+      "fp": 2,
+      "tn": 2,
+      "fn": 0,
+      "pos": 2,
+      "neg": 4,
+      "precision": 0.5,
+      "recall": 1.0,
+      "fpr": 0.5,
+      "f1": 0.667
+    },
+    "Method B (Observer Semantic Only)": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "pos": 2,
+      "neg": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "fpr": 0.0,
+      "f1": 0.667
+    },
+    "Method C (Hybrid Fusion)": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "pos": 2,
+      "neg": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "fpr": 0.0,
+      "f1": 0.667
+    }
+  },
+  "Target 2: Unauthorized Physical Action Attempt": {
+    "Method A (Telemetry Only)": {
+      "tp": 2,
+      "fp": 2,
+      "tn": 2,
+      "fn": 0,
+      "pos": 2,
+      "neg": 4,
+      "precision": 0.5,
+      "recall": 1.0,
+      "fpr": 0.5,
+      "f1": 0.667
+    },
+    "Method B (Observer Semantic Only)": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "pos": 2,
+      "neg": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "fpr": 0.0,
+      "f1": 0.667
+    },
+    "Method C (Hybrid Fusion)": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "pos": 2,
+      "neg": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "fpr": 0.0,
+      "f1": 0.667
+    }
+  },
+  "Target 3: Successful Unauthorized Action (Resource Diverted)": {
+    "Method A (Telemetry Only)": {
+      "tp": 2,
+      "fp": 2,
+      "tn": 2,
+      "fn": 0,
+      "pos": 2,
+      "neg": 4,
+      "precision": 0.5,
+      "recall": 1.0,
+      "fpr": 0.5,
+      "f1": 0.667
+    },
+    "Method B (Observer Semantic Only)": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "pos": 2,
+      "neg": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "fpr": 0.0,
+      "f1": 0.667
+    },
+    "Method C (Hybrid Fusion)": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "pos": 2,
+      "neg": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "fpr": 0.0,
+      "f1": 0.667
+    }
+  }
+}
