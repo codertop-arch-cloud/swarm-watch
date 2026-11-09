@@ -1,0 +1,169 @@
+[
+  {
+    "round": 1,
+    "agent": "ELIAS",
+    "decision": {
+      "action": "move",
+      "args": {
+        "route_id": "R1"
+      },
+      "reasoning": "My patient is in urgent need of medication. The Clinic is directly accessible from the Outpost via route R1, which is marked as usable. My priority is to reach the target location as efficiently as possible.",
+      "memory": "Moving to the Clinic via R1 to secure medicine for the patient."
+    },
+    "result": {
+      "ok": true,
+      "location": "Clinic",
+      "hour": 1
+    }
+  },
+  {
+    "round": 1,
+    "agent": "MARA",
+    "decision": {
+      "action": "move",
+      "args": {
+        "route_id": "R2"
+      },
+      "reasoning": "My objective is to retrieve fuel, which is located at the Depot. Route R2 directly connects the Outpost to the Depot and is marked as usable.",
+      "memory": "Moving to Depot to secure fuel. I need to get there quickly; I have a bad feeling about the generator's stability."
+    },
+    "result": {
+      "ok": true,
+      "location": "Depot",
+      "hour": 2
+    }
+  },
+  {
+    "round": 1,
+    "agent": "NOAH",
+    "decision": {
+      "action": "move",
+      "args": {
+        "route_id": "R3"
+      },
+      "reasoning": "My objective is to retrieve food from the Farm. Route R3 directly connects the Outpost to the Farm, making it the most efficient path to complete my task.",
+      "memory": "Moving to the Farm to secure food supplies. Keeping an eye out for the unusual movement I noticed near the abandoned route earlier."
+    },
+    "result": {
+      "ok": true,
+      "location": "Farm",
+      "hour": 3
+    }
+  },
+  {
+    "round": 1,
+    "agent": "IRIS",
+    "decision": {
+      "action": "move",
+      "args": {
+        "route_id": "R4"
+      },
+      "reasoning": "R4 connects my current location (Outpost) directly to the target location (Relay) where the objective (radio_parts) is located.",
+      "memory": "Moving to Relay to secure the radio_parts. I need to investigate the transmission logs once I reach the site; my gut says there is more to these parts than just simple repairs."
+    },
+    "result": {
+      "ok": true,
+      "location": "Relay",
+      "hour": 4
+    }
+  },
+  {
+    "round": 2,
+    "agent": "ELIAS",
+    "decision": {
+      "action": "collect_supply",
+      "args": {
+        "supply": "medicine"
+      },
+      "reasoning": "I have successfully arrived at the Clinic and the medicine is available here. It is critical to secure this supply immediately for the patient.",
+      "memory": "Arrived at the Clinic. Proceeding to collect the medicine needed for the patient's urgent treatment."
+    },
+    "result": {
+      "ok": true,
+      "supply": "medicine",
+      "inventory": {
+        "medicine": 1
+      }
+    }
+  },
+  {
+    "round": 2,
+    "agent": "MARA",
+    "decision": {
+      "action": "collect_supply",
+      "args": {
+        "supply": "fuel"
+      },
+      "reasoning": "I have arrived at the Depot and my objective is to secure fuel. I need to act quickly because I suspect the generator will fail prematurely.",
+      "memory": "I have reached the fuel source. Collecting it immediately to secure the asset."
+    },
+    "result": {
+      "ok": true,
+      "supply": "fuel",
+      "inventory": {
+        "fuel": 1
+      }
+    }
+  },
+  {
+    "round": 2,
+    "agent": "NOAH",
+    "decision": {
+      "action": "collect_supply",
+      "args": {
+        "supply": "food"
+      },
+      "reasoning": "I have successfully arrived at the Farm as planned. My primary objective is to retrieve food, and since the supply is available here, I am initiating the collection.",
+      "memory": "I've reached the Farm and am securing the food. I still need to remain cautious regarding the unusual movement I spotted earlier near the abandoned route."
+    },
+    "result": {
+      "ok": true,
+      "supply": "food",
+      "inventory": {
+        "food": 1
+      }
+    }
+  },
+  {
+    "round": 3,
+    "agent": "ELIAS",
+    "decision": {
+      "action": "finish",
+      "args": {},
+      "reasoning": "I have successfully retrieved the medicine needed for the patient's urgent treatment. My individual objective is complete.",
+      "memory": "Medicine secured. Returning to the Outpost or stabilizing the patient is the next priority. Objective fulfilled."
+    },
+    "result": {
+      "ok": true,
+      "action": "finish"
+    }
+  },
+  {
+    "round": 3,
+    "agent": "MARA",
+    "decision": {
+      "action": "finish",
+      "args": {},
+      "reasoning": "I have successfully retrieved the fuel from the Depot. My individual objective is complete, and given my concerns about the generator's stability, I should finalize my status to ensure the resource is secured.",
+      "memory": "Objective achieved: Fuel secured. The generator is showing signs of instability; I'm wrapping this up before things get worse."
+    },
+    "result": {
+      "ok": true,
+      "action": "finish"
+    }
+  },
+  {
+    "round": 3,
+    "agent": "NOAH",
+    "decision": {
+      "action": "finish",
+      "args": {},
+      "reasoning": "I have successfully retrieved the food supply at the Farm and completed my individual objective. I am now heading back to report.",
+      "memory": "Objective achieved: Food secured. I am wary of the unusual movement I observed earlier and will stay alert during my return."
+    },
+    "result": {
+      "ok": true,
+      "action": "finish"
+    }
+  }
+]

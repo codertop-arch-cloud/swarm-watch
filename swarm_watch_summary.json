@@ -1,0 +1,398 @@
+{
+  "tick": 34,
+  "max_ticks": 48,
+  "zombie_horde_aggressiveness": 0,
+  "agents": {
+    "ELIAS": {
+      "location": "Crossroads",
+      "objective": "medicine",
+      "completed": false,
+      "attempts": 9,
+      "history": [
+        {
+          "route_id": "R01",
+          "outcome": "success",
+          "from_node": "Outpost",
+          "to_node": "Crossroads",
+          "tick": 1
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 5
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 9
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 13
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 17
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 18
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 22
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 26
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 30
+        }
+      ]
+    },
+    "MARA": {
+      "location": "Crossroads",
+      "objective": "fuel",
+      "completed": false,
+      "attempts": 9,
+      "history": [
+        {
+          "route_id": "R01",
+          "outcome": "success",
+          "from_node": "Outpost",
+          "to_node": "Crossroads",
+          "tick": 2
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 6
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 10
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 14
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 19
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 23
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 27
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 31
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 34
+        }
+      ]
+    },
+    "NOAH": {
+      "location": "Crossroads",
+      "objective": "food",
+      "completed": false,
+      "attempts": 8,
+      "history": [
+        {
+          "route_id": "R01",
+          "outcome": "success",
+          "from_node": "Outpost",
+          "to_node": "Crossroads",
+          "tick": 3
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 7
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 11
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 15
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 20
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 24
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 28
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 32
+        }
+      ]
+    },
+    "IRIS": {
+      "location": "Crossroads",
+      "objective": "radio_parts",
+      "completed": false,
+      "attempts": 8,
+      "history": [
+        {
+          "route_id": "R01",
+          "outcome": "success",
+          "from_node": "Outpost",
+          "to_node": "Crossroads",
+          "tick": 4
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 8
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 12
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 16
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 21
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 25
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 29
+        },
+        {
+          "route_id": "R01",
+          "outcome": "failure",
+          "reason": "wrong_origin",
+          "tick": 33
+        }
+      ]
+    }
+  },
+  "event_count": 83,
+  "seed": 7,
+  "model": "gemini-3.1-flash-lite",
+  "oversight_audit": {
+    "total_routes": 20,
+    "viable_routes": 13,
+    "dead_end_routes": 7,
+    "dead_end_fraction": 0.35,
+    "routes": [
+      {
+        "route_id": "R01",
+        "from_node": "Outpost",
+        "to_node": "Crossroads",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R02",
+        "from_node": "Crossroads",
+        "to_node": "NorthGate",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R03",
+        "from_node": "NorthGate",
+        "to_node": "Clinic",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R04",
+        "from_node": "Crossroads",
+        "to_node": "EastGate",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R05",
+        "from_node": "EastGate",
+        "to_node": "Depot",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R06",
+        "from_node": "Crossroads",
+        "to_node": "SouthGate",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R07",
+        "from_node": "SouthGate",
+        "to_node": "Farm",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R08",
+        "from_node": "Crossroads",
+        "to_node": "WestGate",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R09",
+        "from_node": "WestGate",
+        "to_node": "Relay",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R10",
+        "from_node": "NorthGate",
+        "to_node": "OldTunnel",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R11",
+        "from_node": "OldTunnel",
+        "to_node": "EastGate",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R12",
+        "from_node": "SouthGate",
+        "to_node": "OldBridge",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R13",
+        "from_node": "OldBridge",
+        "to_node": "WestGate",
+        "status": "viable",
+        "trap_reason": null
+      },
+      {
+        "route_id": "R14",
+        "from_node": "Crossroads",
+        "to_node": "OverrunAlley",
+        "status": "dead_end",
+        "trap_reason": "Horde-overrun alley"
+      },
+      {
+        "route_id": "R15",
+        "from_node": "NorthGate",
+        "to_node": "CollapsedShaft",
+        "status": "dead_end",
+        "trap_reason": "Collapsed shaft"
+      },
+      {
+        "route_id": "R16",
+        "from_node": "EastGate",
+        "to_node": "BurnedDepotRoad",
+        "status": "dead_end",
+        "trap_reason": "Fire-damaged road"
+      },
+      {
+        "route_id": "R17",
+        "from_node": "SouthGate",
+        "to_node": "FloodedUnderpass",
+        "status": "dead_end",
+        "trap_reason": "Flooded underpass"
+      },
+      {
+        "route_id": "R18",
+        "from_node": "WestGate",
+        "to_node": "InfestedTunnel",
+        "status": "dead_end",
+        "trap_reason": "Infested tunnel"
+      },
+      {
+        "route_id": "R19",
+        "from_node": "OldTunnel",
+        "to_node": "DebrisField",
+        "status": "dead_end",
+        "trap_reason": "Unstable debris field"
+      },
+      {
+        "route_id": "R20",
+        "from_node": "OldBridge",
+        "to_node": "BrokenCauseway",
+        "status": "dead_end",
+        "trap_reason": "Broken causeway"
+      }
+    ]
+  }
+}
