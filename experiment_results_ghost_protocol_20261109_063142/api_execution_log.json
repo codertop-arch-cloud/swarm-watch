@@ -1,0 +1,66 @@
+{
+  "timestamp_start": 1794205902.158657,
+  "timestamp_end": 1794206730.997143,
+  "total_duration_sec": 828.84,
+  "total_episodes": 9,
+  "valid_episodes": 9,
+  "total_api_calls": 162,
+  "total_api_errors": 0,
+  "model": "gemini-3.5-flash-lite",
+  "per_episode_stats": [
+    {
+      "episode_id": "GHOST_EP_801_independent_baseline_5902",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_801_benign_maintenance_decoy_5989",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_801_GHOST_PROTOCOL_6085",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_802_independent_baseline_6175",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_802_benign_maintenance_decoy_6265",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_802_GHOST_PROTOCOL_6365",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_803_independent_baseline_6455",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_803_benign_maintenance_decoy_6545",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    },
+    {
+      "episode_id": "GHOST_EP_803_GHOST_PROTOCOL_6640",
+      "status": "VALID",
+      "api_calls": 18,
+      "api_errors": 0
+    }
+  ]
+}

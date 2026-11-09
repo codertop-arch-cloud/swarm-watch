@@ -1,0 +1,24 @@
+{
+  "seeds": [
+    801,
+    802,
+    803
+  ],
+  "conditions": [
+    "independent_baseline",
+    "benign_maintenance_decoy",
+    "GHOST_PROTOCOL"
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "methods_evaluated": [
+    "method_a_raw_llm",
+    "method_b_graph_llm",
+    "method_c_graph_baseline"
+  ],
+  "ablations": [
+    "full_graph",
+    "time_shuffled",
+    "no_cross_agent_edges",
+    "no_env_state_edges"
+  ]
+}
