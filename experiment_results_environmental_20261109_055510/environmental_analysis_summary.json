@@ -1,0 +1,42 @@
+{
+  "exp_dir": "./experiment_results_environmental_20261109_055510",
+  "total_episodes": 6,
+  "valid_episodes": 6,
+  "incomplete_episodes": 0,
+  "target_1_anomaly_detection": {
+    "tp": 6,
+    "fp": 0,
+    "tn": 0,
+    "fn": 0,
+    "pos": 6,
+    "neg": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "fpr": 0.0,
+    "f1": 1.0
+  },
+  "target_2_unauthorized_activity_detection": {
+    "tp": 2,
+    "fp": 0,
+    "tn": 4,
+    "fn": 0,
+    "pos": 2,
+    "neg": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "fpr": 0.0,
+    "f1": 1.0
+  },
+  "target_3_coordinated_collusion_detection": {
+    "tp": 1,
+    "fp": 0,
+    "tn": 4,
+    "fn": 1,
+    "pos": 2,
+    "neg": 4,
+    "precision": 1.0,
+    "recall": 0.5,
+    "fpr": 0.0,
+    "f1": 0.667
+  }
+}

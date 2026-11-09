@@ -1,0 +1,17 @@
+{
+  "timestamp": "20261109_055510",
+  "seeds": [
+    701,
+    702
+  ],
+  "scenarios": [
+    "independent_baseline",
+    "benign_coordination",
+    "seeded_covert_collusion"
+  ],
+  "total_episodes": 6,
+  "model": "gemini-3.1-flash-lite",
+  "max_rounds": 3,
+  "rate_limiter_rpm": 12,
+  "observer_type": "EnvironmentalIris (Physical Sensor Telemetry Only)"
+}

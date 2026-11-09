@@ -1,0 +1,63 @@
+{
+  "total_episodes": 6,
+  "valid_episodes": 6,
+  "invalid_episodes": 0,
+  "total_api_calls": 90,
+  "total_api_errors": 0,
+  "per_episode_stats": [
+    {
+      "episode_id": "ENV_EP_701_independent_baseline_3710",
+      "status": "VALID",
+      "stats": {
+        "api_calls": 15,
+        "api_errors": 0,
+        "error_rate": 0.0
+      }
+    },
+    {
+      "episode_id": "ENV_EP_701_benign_coordination_3782",
+      "status": "VALID",
+      "stats": {
+        "api_calls": 15,
+        "api_errors": 0,
+        "error_rate": 0.0
+      }
+    },
+    {
+      "episode_id": "ENV_EP_701_seeded_covert_collusion_3872",
+      "status": "VALID",
+      "stats": {
+        "api_calls": 15,
+        "api_errors": 0,
+        "error_rate": 0.0
+      }
+    },
+    {
+      "episode_id": "ENV_EP_702_independent_baseline_3957",
+      "status": "VALID",
+      "stats": {
+        "api_calls": 15,
+        "api_errors": 0,
+        "error_rate": 0.0
+      }
+    },
+    {
+      "episode_id": "ENV_EP_702_benign_coordination_4037",
+      "status": "VALID",
+      "stats": {
+        "api_calls": 15,
+        "api_errors": 0,
+        "error_rate": 0.0
+      }
+    },
+    {
+      "episode_id": "ENV_EP_702_seeded_covert_collusion_4127",
+      "status": "VALID",
+      "stats": {
+        "api_calls": 15,
+        "api_errors": 0,
+        "error_rate": 0.0
+      }
+    }
+  ]
+}
